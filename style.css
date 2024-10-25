@@ -1,0 +1,92 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #66fcf1;
+    text-decoration: none;
+    font-size: 1.2em; /* Tamanho da fonte do menu */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Conteúdo Principal */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 2em; /* Tamanho da fonte das seções */
+  }
+  
+  p {
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+  }
+  
+  ul {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 1.1em; /* Tamanho da fonte das listas */
+  }
+  
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #contato {
+    margin-top: 10px;
+  }
+  
+  footer h3 {
+    margin-bottom: 10px;
+  }
+  
